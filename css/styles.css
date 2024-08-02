@@ -63,7 +63,7 @@ h4{
 p {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
-    width: 50%; /* 定义主内容区域的宽度，这里设置为页面宽度的50% */
+    width: 60%; /* 定义主内容区域的宽度，这里设置为页面宽度的50% */
     margin-right: auto; /* 右边留出自动空白 */
 }
 
