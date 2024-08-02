@@ -10,6 +10,18 @@ h1{
     font-size: 60px;
 }
 
+h2{
+    font-size: 40px;
+}
+
+h3{
+    font-size: 30px;
+}
+
+h4{
+    font-size: 25px;
+}
+
 #sidebar {
     width: 200px;
     background-color: #000;
@@ -51,4 +63,24 @@ h1{
 p {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
+    width: 50%; /* 定义主内容区域的宽度，这里设置为页面宽度的50% */
+    margin-right: auto; /* 右边留出自动空白 */
+}
+
+#Berkeleyexperience {
+    margin-left: 20px;
+}
+
+.container {
+    display: flex; /* 启用flex布局 */
+    align-items: center; /* 垂直居中对齐子元素 */
+}
+
+.text-section {
+    flex: 3; /* text-section占据可用空间的比例 */
+}
+
+.image-section {
+    flex: 1; /* image-section也占据可用空间的比例 */
+    max-width: 100%; /* 限制图片容器的最大宽度 */
 }
